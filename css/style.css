@@ -71,7 +71,7 @@ p {
 }
 
 /* MON CODE */
-h1 + p {
+h1+p {
   font-size: 1.1rem;
   padding: 0 0 20px;
 }
@@ -284,7 +284,7 @@ form button {
 .hebergements-cards .card {
   display: flex;
   flex-direction: column;
-  flex: 0 0 calc(100% / 3 );
+  flex: 0 0 calc(100% / 3);
 }
 
 /* MON CODE */
@@ -415,7 +415,7 @@ form button {
 
 /* MON CODE */
 .activities-cards .card-title {
-  margin: 10px 0 0 15px; 
+  margin: 10px 0 0 15px;
   font-weight: bold;
 }
 
