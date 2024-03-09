@@ -57,7 +57,7 @@ a {
 
 h1 {
   margin-bottom: 10px;
-  padding-top: 60px;
+  padding-top: 30px;
   font-size: 1.4rem;
 }
 
@@ -65,9 +65,16 @@ h2 {
   margin-right: 10px;
 }
 
+.hebergements h2 {
+  margin: 0;
+  padding-bottom: 30px;
+  font-size: 1.4rem;
+}
+
 /* MON CODE */
 p {
-  margin-top: 10px;
+  margin-top: 15px;
+  margin-bottom: 30px;
 }
 
 /* MON CODE */
@@ -90,7 +97,7 @@ nav {
 }
 
 nav img {
-  height: 30px;
+  height: 20px;
   /* a verifier */
 }
 
@@ -150,7 +157,7 @@ form button {
   justify-content: center;
   font-family: 'Raleway';
   font-weight: bold;
-  font-size: 14px;
+  font-size: 0.9rem;
   text-align: center;
   background-color: #0065FC;
   color: white;
@@ -159,7 +166,7 @@ form button {
   border-bottom-right-radius: 15px;
   padding: 15px;
   margin: 0;
-  width: 130px;
+  width: 120px;
 }
 
 /* MON CODE */
@@ -205,7 +212,7 @@ form button {
   height: 16px;
   border: 1px solid #d9d9d9;
   border-radius: 50%;
-  padding: 5px;
+  padding: 2px;
   margin-right: 5px;
   vertical-align: middle;
   line-height: 16px;
@@ -284,7 +291,7 @@ form button {
 .hebergements-cards .card {
   display: flex;
   flex-direction: column;
-  flex: 0 0 calc(100% / 3);
+  width: calc((100% - 100) / 3);
 }
 
 /* MON CODE */
@@ -315,8 +322,8 @@ form button {
 /* MON CODE */
 .texte {
   font-weight: bold;
-  margin: 10px;
-  padding-top: 20px;
+    margin-bottom: 0;
+    margin-top: 30px;
 }
 
 /****** Populaires ***********/
@@ -368,7 +375,9 @@ form button {
 
 .activities-title {
   margin-left: 30px;
-  font-size: 22px;
+  margin-bottom: 30px;
+  margin-top: 70px;
+  font-size: 1.4;
 }
 
 /* MON CODE */
@@ -380,14 +389,13 @@ form button {
 /* MON CODE */
 .activities-title {
   margin-bottom: 30px;
-  justify-content: space-around;
 }
 
 /* MON CODE */
 .activities-cards {
   display: flex;
   flex-wrap: nowrap;
-  gap: 20px;
+  gap: 15px;
   filter: drop-shadow(0px 0px 3px rgba(0, 0, 0, 0.1))
 }
 
@@ -397,10 +405,10 @@ form button {
   max-width: 300px;
   height: 400px;
   padding: 0px;
-  margin-left: 15px;
+  margin-left: 20px;
   flex-direction: column;
   border-radius: 20px;
-  flex: 0 0 calc(100% / 4 - 15px);
+  width: calc((100% - 30) / 4);
 }
 
 
