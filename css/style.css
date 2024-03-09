@@ -154,7 +154,6 @@ form {
 /* MON CODE */
 form button {
   display: flex;
-  justify-content: center;
   font-family: 'Raleway';
   font-weight: bold;
   font-size: 0.9rem;
@@ -166,7 +165,7 @@ form button {
   border-bottom-right-radius: 15px;
   padding: 15px;
   margin: 0;
-  width: 120px;
+  width: 110px;
 }
 
 /* MON CODE */
