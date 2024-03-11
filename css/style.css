@@ -93,12 +93,11 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 0;
+  padding: 25px 0;
 }
 
 nav img {
   height: 20px;
-  /* a verifier */
 }
 
 /* MON CODE */
@@ -290,7 +289,6 @@ form button {
 .hebergements-cards .card {
   display: flex;
   flex-direction: column;
-  width: calc((100% - 100) / 3);
 }
 
 /* MON CODE */
@@ -299,6 +297,7 @@ form button {
   height: 115px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
+  
 }
 
 /* MON CODE */
@@ -406,7 +405,6 @@ form button {
   margin-left: 20px;
   flex-direction: column;
   border-radius: 20px;
-  width: calc((100% - 30) / 4);
 }
 
 
