@@ -170,6 +170,10 @@ form button {
   width: 110px;
 }
 
+.mobil-button {
+  display: none;
+}
+
 /* MON CODE */
 .filters {
   margin-top: 20px;
@@ -463,7 +467,6 @@ footer {
 .footer-section li {
   margin-bottom: 10px;
 }
-
 
 
 /* Le code ci-dessous correspond à la version responsive uniquement */

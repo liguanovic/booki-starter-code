@@ -1,4 +1,4 @@
-@media (max-width: 1024px) {
+@media (max-width: 1024px) and (min-width: 768px) {
     .hebergements-and-populaires {
         flex-direction: column;
     }
@@ -69,5 +69,9 @@
         font-weight: bold;
         align-items: center;
     }
+
+    .azad{
+        background-color: blue;
+      }
 
 }

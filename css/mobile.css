@@ -39,12 +39,28 @@
     width: 50%;
   }
 
-}
-
-
-    /* font-size: 0.9rem;
-    border: none;
+  form button {
+    font-weight: bold;
+    font-size: 0.9rem;
+    background-color: var(--main-color);
     border-radius: 15px;
     padding: 15px;
     margin: 0;
-    width: 50px;  */
+    width: 50px;
+  }
+
+  form span .fa-solid{
+    color: white
+  }
+
+  .desktop-button {
+    display: none;
+  }
+
+.azad{
+  background-color: red;
+}
+
+
+
+}
