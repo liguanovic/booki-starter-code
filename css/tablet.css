@@ -1,77 +1,72 @@
 @media (max-width: 1024px) and (min-width: 768px) {
-    .hebergements-and-populaires {
-        flex-direction: column;
-    }
+  .hebergements-and-populaires {
+    flex-direction: column;
+  }
 
-    .hebergements {
-        width: 100%;
-    }
+  .hebergements {
+    width: 100%;
+  }
 
-    .hebergements-cards {
-        display: flex;
-        flex-direction: row;
-    }
+  .hebergements-cards {
+    display: flex;
+    flex-direction: row;
+  }
 
-    .populaires {
-        width: 100%;
-        margin-top: 50px;
-    }
+  .populaires {
+    width: 100%;
+    margin-top: 50px;
+  }
 
-    .populaires-cards {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
+  .populaires-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
 
-    .populaires-cards a {
-        width: 30%;
-    }
+  .populaires-cards a {
+    width: 30%;
+  }
 
-    .populaires-cards .card-title {
-        font-size: 14px;
-    }
+  .populaires-cards .card-title {
+    font-size: 14px;
+  }
 
-    .populaires-cards .card-subtitle {
-        font-size: 13px;
-    }
+  .populaires-cards .card-subtitle {
+    font-size: 13px;
+  }
 
-    /* MON CODE */
-    .activities-cards {
-        display: flex;
-        flex-wrap: nowrap;
-        gap: 15px;
-        filter: drop-shadow(0px 0px 3px rgba(0, 0, 0, 0.1))
-    }
+  /* MON CODE */
+  .activities-cards {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 15px;
+    filter: drop-shadow(0px 0px 3px rgba(0, 0, 0, 0.1))
+  }
 
-    /* MON CODE */
-    .activities-cards .card {
-        display: flex;
-        height: 300px;
-        padding: 0px;
-        flex-direction: column;
-        border-radius: 20px;
-        width: calc((100% - 30) / 4);
-    }
+  /* MON CODE */
+  .activities-cards .card {
+    display: flex;
+    height: 300px;
+    padding: 0px;
+    flex-direction: column;
+    border-radius: 20px;
+    width: calc((100% - 30) / 4);
+  }
 
 
-    /* MON CODE */
-    .activities-cards img {
-        width: 300px;
-        height: 380px;
-        max-height: 220px;
-        border-top-left-radius: 20px;
-        border-top-right-radius: 20px;
-        object-fit: cover;
-    }
+  /* MON CODE */
+  .activities-cards img {
+    width: 300px;
+    height: 380px;
+    max-height: 220px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    object-fit: cover;
+  }
 
-    /* MON CODE */
-    .activities-cards .card-title {
-        font-weight: bold;
-        align-items: center;
-    }
-
-    .azad{
-        background-color: blue;
-      }
-
+  /* MON CODE */
+  .activities-cards .card-title {
+    font-weight: bold;
+    align-items: center;
+  }
 }

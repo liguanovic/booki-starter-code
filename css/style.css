@@ -412,7 +412,6 @@ form button {
   padding: 0px;
   flex-direction: column;
   border-radius: 20px;
-  width: calc((100% - 80) / 4);
 }
 
 
@@ -467,8 +466,6 @@ footer {
 .footer-section li {
   margin-bottom: 10px;
 }
-
-
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
