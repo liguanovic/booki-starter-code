@@ -108,14 +108,22 @@
     margin-left: 20px;
   }
 
+  .hebergements-and-populaires section {
+    flex-direction: column-reverse;
+    background: transparent;
+  }
+
+  .hebergements-and-populaires section:nth-child(2) {
+    background-color: var(--main-bg-color);
+    border-radius: 0;
+  }
+
   .hebergements-and-populaires {
     flex-direction: column-reverse;
-    background: none;
     width: 100%;
   }
 
   .populaires {
-    background: var(--main-bg-color);
     width: 100%;
   }
 
@@ -124,6 +132,7 @@
   }
 
   .hebergements {
+    background: none;
     width: 100%;
   }
 
