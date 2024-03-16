@@ -185,11 +185,11 @@ form button {
 .filters ul {
   display: flex;
   padding: 5px;
+  gap: 10px;
 }
 
 /* MON CODE */
 .filters li {
-  margin: 10px;
   font-family: 'Raleway';
   font-weight: bold;
   font-size: 14px;
@@ -350,7 +350,7 @@ form button {
 
 .populaires-cards img {
   width: 33%;
-  height: 136px;
+  height: 140px;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
 }
@@ -380,8 +380,6 @@ form button {
 /****** Activites ***********/
 
 .activities-title {
-  margin-left: 30px;
-  margin-bottom: 30px;
   margin-top: 70px;
   font-size: 1.4rem;
 }
@@ -405,10 +403,13 @@ form button {
   filter: drop-shadow(0px 0px 3px rgba(0, 0, 0, 0.1))
 }
 
+.activities-cards li {
+  width:100%
+}
+
 /* MON CODE */
 .activities-cards .card {
   display: flex;
-  height: 440px;
   padding: 0px;
   flex-direction: column;
   border-radius: 20px;
@@ -417,8 +418,7 @@ form button {
 
 /* MON CODE */
 .activities-cards img {
-  width: 300px;
-  height: 363px;
+  height: 380px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   object-fit: cover;
@@ -426,8 +426,10 @@ form button {
 
 /* MON CODE */
 .activities-cards .card-title {
-  margin: 20px;
+  align-items: center;
   font-weight: bold;
+  height: 30px;
+  padding: 20px;
 }
 
 

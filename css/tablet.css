@@ -1,4 +1,15 @@
 @media (max-width: 1024px) and (min-width: 768px) {
+
+  .filters {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .filters li {
+    margin: 10px 10px 10px 0;
+  }
+
+
   .hebergements-and-populaires {
     flex-direction: column;
   }
@@ -46,7 +57,7 @@
   /* MON CODE */
   .activities-cards .card {
     display: flex;
-    height: 300px;
+    height: 290px;
     padding: 0px;
     flex-direction: column;
     border-radius: 20px;
@@ -56,8 +67,6 @@
 
   /* MON CODE */
   .activities-cards img {
-    width: 300px;
-    height: 380px;
     max-height: 220px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;

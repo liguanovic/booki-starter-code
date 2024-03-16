@@ -1,5 +1,9 @@
 @media (max-width: 767.98px) and (min-width: 320px) {
 
+  header > :not(nav,p) {
+    padding: 0 15px;
+  }
+
   nav {
     flex-direction: column;
     justify-content: center;
@@ -25,7 +29,9 @@
     width: 100%;
     display: block;
     padding-top: 24px;
+    padding-bottom: 10px;
     border-bottom: 2px solid transparent;
+    border-color: #f2f2f2;
     border-top: none;
     box-sizing: border-box;
   }
@@ -37,10 +43,16 @@
   }
 
   nav ul {
+    text-align: center;
     justify-content: center;
     flex-direction: row;
     width: 100%;
+    gap: 0;
   }
+
+    nav li {
+      width: 50%;
+    }
 
   h1 {
     display: flex;
@@ -50,6 +62,7 @@
   }
 
   h1+p {
+    margin-top: 20px;
     margin-left: 20px;
   }
 
@@ -89,23 +102,28 @@
   .filters {
     flex-direction: column;
     align-items: flex-start;
-    margin: 0 0 0 20px;
   }
 
   .filters ul {
     display: flex;
     flex-wrap: wrap;
     padding: 0;
+    justify-content: space-between;
+    width: 100%;
   }
 
   .filters li {
     flex-direction: column;
     width: 180px;
-    margin: 10px 10px 10px 0;
+    width: calc((100% - 20px) / 2);
   }
 
   p i {
     margin-left: 20px;
+  }
+
+  p {
+    margin: 30px 0 30px 0;
   }
 
   .hebergements-and-populaires section {
@@ -159,12 +177,21 @@
     width: 100%;
     height: 60%;
     margin-bottom: 10px;
-    width: 100%;
+  }
+
+  .activities-cards li {
+    width: 90%;
+    height: 60%;
   }
 
   .activities-cards a {
     width: 100%;
     margin-bottom: 10px;
+  }
+
+  .activities-title {
+    margin-bottom: 30px;
+    padding-left: 30px;
   }
 
 
