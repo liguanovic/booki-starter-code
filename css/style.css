@@ -196,7 +196,7 @@ form button {
   text-align: center;
   border: 2px solid #d9d9d9;
   border-radius: 50px;
-  padding: 12px 12px;
+  padding: 10px 15px 10px 15px;
   box-sizing: border-box;
   width: auto;
 }
@@ -346,11 +346,12 @@ form button {
 .populaires-cards .card {
   display: flex;
   margin-top: 33px;
+  height: 160px;
 }
 
 .populaires-cards img {
   width: 33%;
-  height: 140px;
+  height: 100%;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
 }
