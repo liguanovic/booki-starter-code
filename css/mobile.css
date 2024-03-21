@@ -66,6 +66,23 @@
     margin-left: 20px;
   }
 
+  p.texte {
+    margin-top: 10px;
+  }
+
+    .hebergements h2 {
+    font-size: 1.2rem;
+  }
+
+  h2.section-title {
+    font-size : 1.2rem;
+  }
+
+  h2.activities-title {
+    margin-top: 20px;
+    font-size: 1.2rem;
+  }
+
   form {
     justify-content: center;
     margin-left: 20px;
@@ -169,6 +186,7 @@
 
   .hebergements-cards {
     flex-direction: column;
+    gap: 15px;
   }
 
   .hebergements-cards a {
@@ -215,6 +233,7 @@
   }
 
   .footer-section {
+    width: 60%;
     margin-bottom: 10px;
   }
 
