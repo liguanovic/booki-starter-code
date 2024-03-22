@@ -170,7 +170,7 @@
   
   /* MON CODE */
   .filters {
-    margin-top: 20px;
+    margin-top: 10px;
     display: flex;
     align-items: center;
   }
@@ -184,6 +184,7 @@
   
   /* MON CODE */
   .filters li {
+    display: flex;
     font-family: 'Raleway';
     font-weight: bold;
     font-size: 14px;

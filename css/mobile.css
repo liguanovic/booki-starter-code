@@ -131,7 +131,6 @@
   }
 
   .filters li {
-    flex-direction: column;
     width: 180px;
     width: calc((100% - 20px) / 2);
   }
